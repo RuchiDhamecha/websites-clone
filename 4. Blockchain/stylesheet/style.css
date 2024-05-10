@@ -1,0 +1,121 @@
+.navbar{
+    background-color: #121d33;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 1.5rem; */
+    height: 5rem;
+    border-bottom: 1px solid rgb(59, 59, 59);
+    padding: 0 2rem;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* z-index: 1; */
+}
+.navbar2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar2 span{
+    padding: 0 1rem;
+    cursor: pointer;
+}
+.search{
+    /* padding: rem 2rem; */
+    background-color: #2b3d60;
+   padding:0.75rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.login{
+    padding : 0.3rem 0.8rem;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.signup{
+    padding : 0.3rem 0.8rem;
+    background-color: #fff;
+    /* color: black; */
+    border-radius: 8px;
+    cursor: pointer;
+
+    border: 2px solid white;
+}
+.header{
+    background:url('../images/home-hero-gradient.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 9rem 11rem 6rem ;
+    height: calc(100vh - 20rem);
+    margin-bottom: 10rem;
+}
+.input{
+    margin: 1rem 0;
+    padding: 0.5rem 9rem 0.5rem 1rem;
+    background-color: #ffffff38;
+    border-radius: 8px;
+    border: 1px solid transparent
+}
+.input ::placeholder{
+    color: #fff;
+}
+.price{
+    margin: 5rem 0 10rem 0;
+}
+.prices-box{
+    padding: 1.25rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 1px rgb(186, 186, 186);
+}
+
+.wallet{
+    margin: 3rem 3rem;
+    border-radius: 4rem;
+    padding: 3rem 8rem;
+}
+
+.wallet-bg{
+    background-image: url('../images/homepage-app-shapes-bg.png');
+    background-size: cover;
+}
+.wallet-bg2{
+    background-image: url('../images/homepage-exchange-shapes-bg.png');
+    background-size: cover;
+}
+.wallet-bg3{
+    background-image: url('../images/homepage-institutional-shapes-bg.png');
+    background-size: cover;
+    background-size: contain;
+}
+.zero{
+    /* background-image:url('../images/banner-bg.svg') , linear-gradient(to top,rgba(0, 0, 255, 0.34),rgba(2, 2, 84, 0.431)), ; */
+
+    background: #03001d url('../images/banner-bg.svg') center center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding : 4.5rem 0;
+    margin: 2rem 0;
+}
+.zero h1{
+    font-size: 2.5rem;
+}
+
+.zero .big-btn{
+    margin:0;
+
+}
+.footer{
+    padding: 2rem 11rem;
+    display: flex;
+    flex-direction: row;
+    gap:12rem;
+}
+

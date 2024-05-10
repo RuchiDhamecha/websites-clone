@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="https://www.totaltypescript.com/favicon.ico" />
+  <title>Solving TypeScript Errors Tutorial | Total TypeScript</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/utility.css" />
+  <script src="https://kit.fontawesome.com/0dde98e3b3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="small white bold">
+        <h1>TotalTypescript</h1>
+      </div>
+      <div class="small grey bold">
+        <span>Pro Workshops</span>
+        <span>Free Tutorials</span>
+        <span>Tips</span>
+        <span>Articles</span>
+      </div>
+      <div class="small white">
+        <span><i class="fa-solid fa-magnifying-glass grey small"></i></span>
+        <span>Login</span>
+        <span>SignUp</span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="left side-margin">
+      <header class="header">
+        <div class="blue small padding1-0"><span>← All Tutorials</span></div>
+        <h1>Solving</h1>
+        <h1>TypeScript Errors</h1>
+        <div class="matt padding1-0">
+          <img src="./images/matt-pocock.jpg" alt="">
+          <span class="small white bold padding1-0">Matt Pocock</span>
+        </div>
+
+        <span><button class="btn bg-blue medium black bold">
+            Start Learning <i class="fa-sharp fa-solid fa-caret-right" style="color: #3d3f43;"></i></i>
+          </button></span>
+        <span><button class="btn medium white bold"><i class="fa-brands fa-github"></i> Code</button></span>
+
+        <div>
+          <img class="main-img"
+            src="https://www.totaltypescript.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fz9io1e0u%2Fproduction%2Fa212ddcf15d5308e6399f9234eafe415a64e1153-1656x1656.png&w=640&q=100"
+            alt="" />
+        </div>
+      </header>
+    </section>
+
+    <section class=" side-margin container">
+      <section class="right">
+        <div class="grey small">
+          <p class="padding1-0">
+            Type checking is awesome, but sometimes it gives you error
+            messages that can be challenging to interpret and resolve.
+          </p>
+          <p class="padding1-0">
+            Whether you're new to TypeScript or looking to deepen your
+            understanding, this tutorial is your guide to understanding some
+            of TypeScript's most common errors.
+          </p>
+          <p class="padding1-0">
+            In this tutorial, you'll find challenges centered around reading
+            error messages and practical solutions to solving the issues they
+            describe. You'll gain insights into:
+          </p>
+        </div>
+        <div>
+          <ul class="small grey padding-2">
+            <li class="padding1-0">
+              <span class="bold"> Tyspane Not Assignable Error: </span><span>
+                Understand why tyspane mismatches occur and exspanlore
+                solutions like widening tyspane definitions.</span>
+            </li>
+            <li class="padding1-0">
+              <span class="bold">
+                Property Does Not Exist on Type Error:
+              </span>
+              <span>Learn how to deal with undeclared properties and the use of
+                Record types.</span>
+            </li>
+            <li class="padding1-0">
+              <span class="bold"> Possibly Null or Undefined Error: </span>
+              <span>Tackle nullability issues with techniques like optional
+                chaining and type narrowing.</span>
+            </li>
+            <li class="padding1-0">
+              <span class="bold">
+                Types of Property are Incompatible Error:
+              </span>
+              <span>
+                Decode complex error messages and refine your type
+                definitions.
+              </span>
+            </li>
+            <li class="padding1-0">
+              <span class="bold"> Type Unknown Error: </span>
+              <span> Handle unknown types effectively.</span>
+            </li>
+            <li class="padding1-0">
+              <span class="bold">
+                Expression of Type String Can't Be Used to Index Type Error:
+              </span>
+              <span>
+                Overcome indexing issues with strategic type
+                refinements.</span>
+            </li>
+            <li class="padding1-0">
+              <span class="bold">
+                Property Has No Initializer and Is Not Definitely Assigned in
+                Constructor Error:
+              </span>
+              <span> Address class property initialization challenges. </span>
+            </li>
+            <li class="padding1-0">
+              <span class="bold">
+                Conversion of Type May Be a Mistake Error:
+              </span>
+              <span> Navigate type conversion with caution. </span>
+            </li>
+            <li class="padding1-0">
+              <span class="bold">
+                Cannot Redeclare Block-scoped Variable Error:
+              </span>
+              <span>
+                Resolve naming conflicts and understand TypeScript's module
+                detection.</span>
+            </li>
+            <li class="padding1-0">
+              <span class="bold">
+                Could Not Find a Declaration File for Module Error:
+              </span>
+              <span>
+                Deal with missing type declarations in JavaScript modules.
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="medium bold white padding1-0">Instructions</h2>
+          <p class="grey small padding1-0">
+            This tutorial is split into several exercises. Each features a
+            problem that encourages you to take an active, exploratory
+            approach to finding a solution.
+          </p>
+        </div>
+        <div>
+          <h2 class="medium bold white padding1-0">You'll need to:</h2>
+          <ul class="padding-2">
+            <li class="padding-1 small">
+              Watch and read the problem introduction.
+            </li>
+            <li class="padding-1 small">
+              Check out the TypeScript or React documentation or dive into
+              type definitions to look for help
+            </li>
+            <li class="padding-1 small">
+              Try a solution and check your work. There may be more than one
+              way to solve the challenge! Whether you succeed or get stuck,
+              watch and read the solution and check out the included code.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="medium bold white padding1-0">Prerequisites</h2>
+          <p class="grey small padding1-0">
+            You’ll need a working understanding of TypeScript.
+          </p>
+        </div>
+        <div>
+          <h2 class="medium bold white padding1-0">Running the Exercises</h2>
+          <p class="grey small padding1-0">
+            Clone
+            <span class="blue bold"> the Error Messages Tutorial repo, </span>and use npm or yarn to install
+            dependencies.
+          </p>
+          <p class="grey small padding1-0">
+            If you
+            <span class="blue bold"> follow this link to use gitpod</span>,
+            you can work in a full VS Code coding environment running in your
+            browser.
+          </p>
+          <p class="grey small padding1-0">
+            Follow the instructions in the<span class="blue bold">
+              README</span>
+            for more.
+          </p>
+        </div>
+      </section>
+
+      <section class="contents-container">
+        <div class="contents ">
+          <h2 class="medium white bold padding1-0">Contents</h2>
+          <span class="grey padding1-0">10 Lessons</span>
+        </div>
+        <div class="inner-contents ">
+          <p class=" question ">
+            <span class="grey">1</span>
+            <span class="small bold white ">Fixing "X Is Not Assignable To Y"</span>
+          </p>
+          <p class="question padding1-0">
+            <span class="grey">2</span>
+            <span class="small bold white ">Fixing "Property Does Not Exist On Type"</span>
+          </p>
+          <p class=" question ">
+            <span class="grey">3</span>
+            <span class="small bold white ">Fixing "X is Possibly Null Or Undefined"</span>
+          </p>
+          <p class="question padding1-0">
+            <span class="grey">4</span>
+            <span class="small bold white ">Fixing Fixing "Types Of Property Are Incompatible"</span>
+          </p>
+          <p class=" question ">
+            <span class="grey">5</span>
+            <span class="small bold white ">Fixing "X Is Of Type Unknown"</span>
+          </p>
+          <p class="question padding1-0">
+            <span class="grey">6</span>
+            <span class="small bold white ">Fixing "Expression Can't Be Used To Index Type X"</span>
+          </p>
+          <p class=" question ">
+            <span class="grey">7</span>
+            <span class="small bold white ">Fixing "Property X Has No Initializer"</span>
+          </p>
+          <p class="question padding1-0">
+            <span class="grey">8</span>
+            <span class="small bold white ">Fixing "Conversion Of Type X May Be A Mistake"</span>
+          </p>
+          <p class="question ">
+            <span class="grey">9</span>
+            <span class="small bold white ">Fixing "Cannot Redeclare Block-Scoped Variable"</span>
+          </p>
+          <p class="question padding1-0">
+            <span class="grey">10</span>
+            <span class="small bold white ">Fixing "Could Not Find A Declaration File"</span>
+          </p>
+        </div>
+
+        <section class="certificate-section">
+
+          <h2 class="margin1-0 medium bold white padding1-0 ">Certificate</h2>
+
+          <div class="border-grey">
+
+            <div class="certificate "></div>
+
+            <div class="locked grey">
+              <span class="lock-icon margin1-0"><i class="fa-solid fa-lock "></i></span>
+              <p>Complete all lessons to unlock this certificate.</p>
+            </div>
+
+          </div>
+
+        </section>
+
+      </section>
+
+    </section>
+  </main>
+  <footer class="footer ">
+    <div class="footer-container ">
+      <div class="row">
+        <div class="col">
+          <h4 class="small white">LEARN</h4>
+          <ul class="grey small">
+            <li>Pro Workshops</li>
+            <li>Free Tutorials</li>
+            <li>Tips</li>
+            <li>Articles</li>
+            <li>Concepts</li>
+            <li>Search</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4 class="small white">ABOUT</h4>
+          <ul class="grey small">
+            <li>All Products</li>
+            <li>FAQ</li>
+            <li>Credits</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4 class="small white">TOOLS</h4>
+          <ul class="grey small">
+            <li>Learning Path</li>
+            <li>VSCode Extension</li>
+            <li>TS Reset</li>
+            <li>Discord Server</li>
+          </ul>
+        </div>
+        <div class="col ">
+          <h4 class="small white">CONTACT</h4>
+          <ul class="grey small">
+            <li>Contact Us</li>
+            <li>Email Support</li>
+          </ul>
+        </div>
+        <div class="col">
+          <img src="./images/ts red logo.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

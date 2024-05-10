@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: #111827;
+  background-image: url('../images/bg-divider-6.png');
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.side-margin {
+  margin: 0 11rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(8, 20, 32);
+  padding: 0.75rem;
+  border: 1px solid #202c43;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.navbar span {
+  padding: 0 1rem;
+}
+
+.navbar div:nth-last-child(1) span {
+  padding: 0 0.5rem;
+  /* font-size: 10px; */
+}
+
+.header {
+  padding: 4.5rem 0 3rem 0;
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.main-img {
+  position: absolute;
+  top: 6rem;
+  right: 10%;
+  /* bottom: calc(100vh - 24rem); */
+
+  float: right;
+  height: 28rem;
+  width: 28rem;
+}
+
+.matt {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.matt img {
+  border-radius: 50%;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  gap: 3rem;
+}
+
+
+/* right side question section  */
+
+.container .right {
+  flex: 3;
+  padding-bottom: 5rem;
+}
+
+.container .contents-container {
+  flex: 2;
+}
+
+.inner-contents {
+  border: 1px solid rgba(152, 184, 229, 0.414);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem
+}
+
+
+/* certificate section  */
+.certificate-section {
+  position: relative;
+}
+
+.locked {
+  position: absolute;
+  bottom: 6rem;
+  left: 3rem;
+}
+
+.certificate {
+  /* z-index: -1; */
+  background-image: url('../images/certificate.webp');
+  -webkit-filter: blur(6px);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 19rem;
+  border-radius: 8px;
+
+}
+
+.lock-icon {
+  border: 1px solid #707787;
+  padding: 0.75rem 0.8rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 3rem;
+  left: 9rem;
+
+}
+
+/* footer section  */
+
+
+.footer {
+  background-color: #090e19;
+  padding: 3.5rem 8rem 12rem;
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer img {
+  height: 10rem;
+  position: relative;
+  bottom: 2rem;
+}
+
+.col li {
+  margin: 0.5rem 0;
+}

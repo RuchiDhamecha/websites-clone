@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+.large {
+    font-size: 1.75rem;
+}
+
+.medium {
+    font-size: 1rem;
+}
+
+.small {
+    font-size: 0.8rem;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.side-padding {
+    padding: 0 2.5rem;
+}
+
+.margin0-1 {
+    margin: 0 1rem;
+}
+
+.margin1-0 {
+    margin: 1rem 0rem;
+}
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+.white-un {
+    text-decoration-color: white;
+}
+
+.red-un {
+    text-decoration-color: rgb(218, 41, 36)
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.padding1-0 {
+    padding: 1rem 0;
+}

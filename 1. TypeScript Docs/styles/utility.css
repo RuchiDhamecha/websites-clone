@@ -1,0 +1,59 @@
+.small {
+    font-size: 1.2rem;
+}
+.medium{
+    font-size: 1.5rem;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: #dad6d6;
+}
+
+.blue {
+    color: #88f7f1;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padding-1 {
+    padding: 1rem;
+}
+
+.padding-2{
+    padding: 0 2rem;
+}
+
+.padding1-0 {
+    padding: 1rem 0;
+}
+
+.margin1-0{
+    margin: 1rem 0;
+}
+
+.btn {
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(152, 184, 229, 0.414);
+    margin: 1rem 1rem 1rem 0;
+    cursor: pointer;
+}
+
+.bg-blue {
+    background-color: #88f7f1;
+}
+.border-grey{
+    border: 1px solid rgba(152, 184, 229, 0.414);
+    border-radius: 8px;
+}
+
+.side-margin {
+    margin: 0 9rem;
+}
