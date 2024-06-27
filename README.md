@@ -18,3 +18,7 @@
 
 #### [4] BlockChain.com
 ![image](https://github.com/RuchiDhamecha/websites-clone/assets/87808663/57612c5c-95e3-493e-a6cb-44343b291d69)
+
+#### [5] Coditas Website Clone
+![image](https://github.com/RuchiDhamecha/websites-clone/assets/87808663/51769f10-bb45-4141-a9a1-aaf7121df629)
+
