@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+* {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    /* padding: 0 16px; */
+
+}
+.dark-heading {
+    color : white;
+ }
+ .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 4px;
+}
+.heading {
+    font-size: 62px;
+    font-style: "Montserrat";
+    margin: 2rem 12rem 2rem 0;
+    font-weight: 300;
+}
+.small-heading {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text {
+        margin-top: 0;
+        color: #847b7b;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+}
+
+.home {
+    width: 100vw;
+    height: 40rem;
+    /* background-color: blue; */
+    background-image: linear-gradient(to top, rgba(30, 27, 27, 0), rgba(28, 28, 29, 0.318)),
+        url('images/home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* navbar  */
+
+.header {
+    /* position: sticky; */
+    padding: 1.25rem 5rem;
+    display: flex;
+    border-bottom: 1px solid #c1bfbf3c;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: medium;
+    color: white;
+}
+.header a{
+    /* color: white; */
+    fill: white;
+    /* becoz logo is trasparent  */
+}
+
+.header div {
+    margin: 0 2rem;
+}
+
+ ul {
+    list-style-type: none;
+    /* display: inline; */
+}
+
+.header li {
+    display: inline;
+    padding: 0.5rem;
+}
+/* home  */
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+    justify-content: space-evenly;
+    color: white;
+    margin: 7rem 0;
+
+}
+
+.home-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+}
+
+.home-info {
+    margin: 2rem 20rem 2rem 0;
+    font-size: large;
+}
+
+.home-contact-btn {
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: 1px solid rgb(51, 55, 242);
+    background-color: rgb(51, 55, 242);
+    color: white;
+    font-size: large
+}
+
+/* digital  */
+
+.digital {
+    padding: 5rem;
+}
+
+.digital-img {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem 0;
+}
+
+.digital-img img {
+    padding-right: 2rem;
+}
+
+/* services  */
+
+.services {
+    background: url("svg/doodleDotsRight.svg"), rgba(6, 1, 19, 0.997);
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 5rem;
+    height: 40rem;
+}
+
+
+
+.services-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.service-menu-item {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    text-align: left;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #07172D;
+    box-shadow: 0 1.5rem 2.125rem #0303033d;
+    z-index: 100;
+    width: 18%;
+    margin: 1rem;
+    border-image: linear-gradient(#333e65, #060445) 30;
+    border-width: 1px;
+    border-style: solid;
+   
+}
+
+/* .service-menu-item:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0.25rem;
+    padding: 1px;
+    background: linear-gradient(to top,
+            rgba(44, 116, 214, 0),
+            rgba(44, 116, 214, 0.3215686275));
+} */
+
+
+
+
+
+.service-details {
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    text-decoration: none;
+    color: #2C74D6;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* work  */
+.work{
+    padding: 8rem 5rem 2rem 5rem;
+}
+
+/* .technologies */
+
+.technologies{
+    color:white;
+    padding: 5rem 16rem 5rem 5rem;
+    /* margin: 0; */
+   background-color:  rgba(6, 1, 19, 0.997);;
+}
+.tech-logo-container{
+    padding: 0.75rem 0;
+}
+.tech-logo-container > span>img{
+    margin: 0.5rem;
+    padding: 1.25rem;
+    border-radius: 50%;
+    
+}
+.grey{
+    border: 2px solid #362e2e;
+}
+.yellow{
+    border: 2px solid #ffbb0e;
+}
+.partner{
+    position: relative;
+    left: 12.5rem;
+    top:0.4rem;
+}
+.partner span{
+    display: inline-block;
+    padding: 0.5rem ;
+    background-color:  #fab914;
+    color: black;
+    border-radius: 2rem;
+   font-size: small;
+   font-style: "Montserrat";
+}
+.triangle{
+    border: 1rem solid transparent;
+    border-top: 1rem solid #fab914; 
+    display: inline-block;
+    position: relative;
+    top: 2.5rem;
+    right: 5rem
+}
+.hiring{
+    padding: 5rem 2rem 5rem 5rem;
+}
+.hiring{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items:row;
+    width: 70rem;
+    top: 8rem;
+}
+.right{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    left: 50vw;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.hiring-box{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    border-radius: 8px;
+    color: #000000;
+    /* background-color: #07172D; */
+    box-shadow: 0 1.5rem 2.125rem #0303033d;
+    z-index: 100;
+    width: fit-content;
+    margin: 0.25rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+.openings{
+    background-color: #e35e58;
+    color: white;
+}
+.hiring-menu {
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: 0 5rem;
+}
+
+.opening-heading{
+    margin: 0;
+}
+
+.offices{
+    padding:  5rem;
+    background:url(svg/worldMap-d5770c08.svg), #07172D;
+    background-size:auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: rgb(222, 217, 217);
+}
+.offices p{
+    padding: 0.5rem 0;
+}
+
+.office-location{
+    padding: 1rem 0;
+}
+.office-location .text{
+    margin-left: 2.5rem;
+}
+
+/* footer  */
+
+.footer{
+    background: linear-gradient(135deg, #2c73d6 0%, #2365bd 100%);
+    padding: 5rem;
+    color: white;
+}
+.footer .column{
+    padding: 0 1.5rem;
+}
+
+.footer li{
+    padding: 0.5rem 0;
+}
+.footer img{
+    padding-top:2rem;
+}
+.slogan{
+    font-size: 12px;
+    padding-bottom: 2rem;
+}
